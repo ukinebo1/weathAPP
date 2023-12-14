@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>WEATHER APP</h1>
+      <form class="weather">
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="Enter your city"
+          required
+        />
+
+        <button type="submit" id="Btn">Get weather</button>
+      </form>
+      <div id="weatherData">
+        <img src="./assets/clear.svg" alt="" width="100px" class="icon" />
+        <h2 class="city">lago</h2>
+        <h3 class="temp"></h3>
+        <div class="inner-grid">
+          <h3 class="weatherDescription"></h3>
+          <h3 class="wind"></h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
