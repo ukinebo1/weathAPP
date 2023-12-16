@@ -19,10 +19,18 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background:
-    linear-gradient(115deg, rgba(36, 36, 36, 0.603), rgba(21, 21, 22, 0.464)),
-    url("../assets/ezgif.com-video-to-gif-converted.gif") no-repeat center
-      center/cover;
+  background: linear-gradient(
+      115deg,
+      rgba(36, 36, 36, 0.603),
+      rgba(21, 21, 22, 0.464)
+    ),
+    url("../assets/weathervideo.gif") no-repeat center center/cover;
+}
+
+.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .weather {
   display: flex;
